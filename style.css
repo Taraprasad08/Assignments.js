@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  button, .filter-button {
+    padding: 1px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  div{
+    size-adjust: auto;
+  }
